@@ -1,0 +1,243 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>--zc document--</title>
+<base target="_blank" />
+<style>
+table {
+ font-family: "宋体";
+ font-size: 13px;
+ border-collapse: collapse;
+ text-align: left;
+ border: 1px solid;
+}
+
+td {
+ /*border: 1px solid #c0c0c0;*/
+ border: 1px solid #cdc;
+ 
+}
+/*
+a:active{
+ text:expression(target="_blank");
+}
+*/
+</style>
+<script>
+function switchTable(event){
+ 
+ var eventSource;
+ if(document.all){
+  eventSource =window.event.srcElement; 
+ }else{
+  eventSource = event.target;
+ }
+ 
+ if(eventSource.innerHTML=="Close"){
+  eventSource.innerHTML = "Open";
+  if(typeof(eventSource.parentNode.parentNode.parentNode.childNodes[3])!="undefined" && eventSource.parentNode.parentNode.parentNode.childNodes[3]!=null){//firefox
+   eventSource.parentNode.parentNode.parentNode.childNodes[3].style.display="none";
+  }else{//IE
+   eventSource.parentNode.parentNode.parentNode.childNodes[1].style.display="none";
+  }
+ }else{
+  eventSource.innerHTML = "Close";
+  if(typeof(eventSource.parentNode.parentNode.parentNode.childNodes[3])!="undefined" && eventSource.parentNode.parentNode.parentNode.childNodes[3]!=null){//firefox
+   eventSource.parentNode.parentNode.parentNode.childNodes[3].style.display="";
+  }else{//IE
+   eventSource.parentNode.parentNode.parentNode.childNodes[1].style.display="";
+  }
+ }
+ 
+ 
+ 
+ /*
+ alert(0+"      "+eventSource.parentNode.parentNode.parentNode.childNodes[0].innerHTML);
+ alert(1+"      "+eventSource.parentNode.parentNode.parentNode.childNodes[1].innerHTML);
+ alert(2+"      "+eventSource.parentNode.parentNode.parentNode.childNodes[2].innerHTML);
+ alert(3+"      "+eventSource.parentNode.parentNode.parentNode.childNodes[3].innerHTML);
+ alert(4+"      "+eventSource.parentNode.parentNode.parentNode.childNodes[4].innerHTML);
+ alert(5+"      "+eventSource.parentNode.parentNode.parentNode.childNodes[5].innerHTML);
+ */
+ 
+}
+
+</script>
+</head>
+<!-- <body style="text-align: center;background-color:#CCE8CF"> -->
+<body style="text-align: center;">
+<p>&nbsp;</p>
+<!-- all page -->
+<div style="border: 0px solid; width: 1100px; margin: 0 auto">
+
+<!-- center navigation -->
+ <div style="float: left; border: 0px solid; width: 80%">
+ <!-- ===================================================================================================================== -->
+  <table bordercolor="#000000" style="width: 99%;" border="0" cellspacing="0" cellpadding="8">
+   <thead style="background-color: #EEEEEE">
+    <tr id="112">
+     <th colspan="6">Shopz</th>
+     <th align="right" style="padding-right: 10px; cursor: pointer;" onclick="switchTable(event)">Close</th>
+    </tr>
+   </thead>
+   <tbody>
+    <tr>
+     <td><a href="https://www-304.ibm.com/software/shopzseries/ShopzSeries_public.wss" target="blank">Shopz-PROD</a></td>
+     <td><a href="http://www.ibm.com/software/shopzseries">Shopz_Prod_External</a></td>
+     <td><a href="https://g03zcxwascl045.ahe.boulder.ibm.com/software/shopzseries/ShopzSeries_public.wss">Shopz Prod on BLD</a></td>
+     <td><a href="https://www-wi-sso3.toronto.ca.ibm.com:445/software/shopzseries/ShopzSeries_public.wss">Shopz UAT on BLD</a></td>
+     <td><a href="https://wwwbeta-sso.toronto.ca.ibm.com:444/software/shopzseries/ShopzSeries_public.wss">Shopz SIT on BLD</a></td>
+     <td><a href="https://tgmonshopt01.sl.bluecloud.ibm.com:9443/software/shopzseries/ShopzSeries_public.wss">Blue Cloud</a></td>
+     <td><a href="http://localhost:9080/software/shopzseries/ShopzSeries_public.wss">Shopz local 0</a></td>
+    </tr>
+    <tr>
+     <td>&nbsp;</td>
+     <td><a href="http://w3.ibm.com/software/shopzseries">Shopz_Prod_Internal</a></td>
+     <td><a href="https://g01zcxwascl015.ahe.pok.ibm.com/software/shopzseries/ShopzSeries_public.wss">Shopz Prod on POK</a></td>
+     <td><a href="https://c03zcl003was.toronto.ca.ibm.com:444/software/shopzseries/ShopzSeries_public.wss">Shopz UAT on POK</a></td>
+     <td><a href="https://c03zcl003was.toronto.ca.ibm.com/software/shopzseries/ShopzSeries_public.wss">Shopz SIT on POK</a></td>
+     <td><a href="https://9.111.121.131:9443/software/shopzseries/ShopzSeries_public.wss">X Cloud</a></td>
+     
+     <td>&nbsp;</td>
+    </tr>
+   </tbody>
+  </table>
+  <br/>
+ <!-- ===================================================================================================================== -->
+ 
+  <table bordercolor="#000000" style="width: 99%;" border="0" cellspacing="0" cellpadding="8">
+   <thead style="background-color: #EEEEEE">
+    <tr>
+     <th colspan="6">RAM</th>
+     <th align="right" style="padding-right: 10px; cursor: pointer;" onclick="switchTable(event)">Close</th>
+    </tr>
+   </thead>
+   <tbody>
+     <tr>
+     <td><a href="https://www-304.ibm.com/software/ram/public/landing" target="blank">RAM-PROD</a></td>
+     <td><a href="http://www.ibm.com/software/ram">RAM_Prod_External</a></td>
+     <td><a href="https://g03zcxwascl045.ahe.boulder.ibm.com/software/ram/public/landing">RAM Prod on BLD</a></td>
+     <td><a href="https://www-wi-sso3.toronto.ca.ibm.com:445/software/ram/public/landing">RAM UAT on BLD</a></td>
+     <td><a href="https://wwwbeta-sso.toronto.ca.ibm.com:444/software/ram/public/landing">RAM SIT on BLD</a></td>
+     <td><a href="https://tgmonshopt01.sl.bluecloud.ibm.com:9443/software/ram/public/landing">Blue Cloud</a></td>
+     <td><a href="http://localhost:9080/software/ram/public/landing">RAM local 0</a></td>
+    </tr>
+    <tr>
+     <td>&nbsp;</td>
+     <td><a href="http://w3.ibm.com/software/ram">RAM_Prod_Internal</a></td>
+     <td><a href="https://g01zcxwascl015.ahe.pok.ibm.com/software/ram/public/landing">RAM Prod on POK</a></td>
+     <td><a href="https://c03zcl003was.toronto.ca.ibm.com:444/software/ram/public/landing">RAM UAT on POK</a></td>
+     <td><a href="https://c03zcl003was.toronto.ca.ibm.com/software/ram/public/landing">RAM SIT on POK</a></td>
+     <td><a href="https://9.111.121.131:9443/software/ram/public/landing">X Cloud</a></td>
+     
+     <td>&nbsp;</td>
+    </tr>
+   </tbody>
+  </table>
+  <br/>
+  <!-- ===================================================================================================================== -->
+  
+  <table bordercolor="#000000" style="width: 99%;" border="0" cellspacing="0" cellpadding="8">
+   <thead style="background-color: #EEEEEE">
+    <tr>
+     <th colspan="6">WebSphere</th>
+     <th align="right" style="padding-right: 10px; cursor: pointer;" onclick="switchTable(event)">Close</th>
+    </tr>
+   </thead>
+   <tbody>
+     <tr>
+     <td><a href="https://localhost:9044/ibm/console/login.do">WAS-PROD</a></td>
+     <td>&nbsp;</td>
+     <td>&nbsp;</td>
+     <td><a href="https://c03z001was.bld.dst.ibm.com:9046/ibm/console/logon.jsp">WAS_UAT_BLD</a></td>
+     <td><a href="https://c03z001was.bld.dst.ibm.com:9044/ibm/console/logon.jsp">WAS_SIT_BLD</a></td>
+     <td><a href="https://tgmonshopt01.sl.bluecloud.ibm.com:9043/ibm/console/login.do">WAS_Blue_Cloud</a></td>
+     
+     <td><a href="http://localhost:9060/ibm/console/logon.jsp ">WAS_Local</a></td>
+    
+    </tr>
+    <tr>
+     <td>&nbsp;</td>
+     <td>&nbsp;</td>
+     <td>&nbsp;</td>
+     <td><a href="https://c03z001was.bld.dst.ibm.com:9046/ibm/console/logon.jsp">WAS_UAT_POK</a></td>
+     <td><a href="https://c03z003was.pok.dst.ibm.com:9044/ibm/console/logon.jsp">WAS_SIT_POK</a></td>
+     <td><a href="https://9.111.121.131:9043/ibm/console/logon.jsp ">WAS_X_Cloud</a></td>
+     
+     
+     
+     <td>&nbsp;</td>
+    </tr>
+   </tbody>
+  </table>
+  <br/>
+  <!-- ===================================================================================================================== -->
+  
+ </div>
+ <!-- ******************************************************* right toolbar ***********************************************************  -->
+<!-- right toolbar-->
+ <div style="float: right; border: 0px solid; width: 19%; text-align: right">
+ <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  -->
+  <table bordercolor="#000000" style="width: 100%;" border="0" cellspacing="0" cellpadding="8">
+   <thead style="background-color: #EEEEEE">
+    <tr>
+     <th>Tool</th>
+     <th align="right" style="padding-right: 10px; cursor: pointer;" onclick="switchTable(event)">Close</th>
+    </tr>
+   </thead>
+   <tbody>
+    <tr>
+     <td><a href="https://tgmonshopt01.sl.bluecloud.ibm.com:9443/DB_view/Export.html" target="_blank">Shopz_DB</a></td>
+     <td><a href="https://tgmonshopt01.sl.bluecloud.ibm.com:9443/DB_view/Export_cat.html" target="_blank">CAT_DB</a></td>
+    </tr>
+    <tr>
+     <td><a href="https://tgmonshopt01.sl.bluecloud.ibm.com:9443/DB_view/Export_orderStatus.html" target="_blank">order status</a></td>
+     <td><a href="https://tgmonshopt01.sl.bluecloud.ibm.com:9443/DB_view/Export_orderStep.html" target="_blank">order step</a></td>
+    </tr>
+     <tr>
+     <td><a href="https://tgmonshopt01.sl.bluecloud.ibm.com:9443/DB_view/Export_orderPage.html" target="_blank">order Page</a></td>
+     <td><a href="https://tgmonshopt01.sl.bluecloud.ibm.com:9443/DB_view/Export_hardware.html" target="_blank">Shopz hardware</a></td>
+    </tr>
+    <tr>
+     <td><a href="https://tgmonshopt01.sl.bluecloud.ibm.com:9443/DB_view/Export_checking.html" target="_blank">Data check</a></td>
+     <td><a href="https://tgmonshopt01.sl.bluecloud.ibm.com:9443/DB_view/Browser.jsp" target="_blank">jsp broswer</a></td>
+    </tr>
+    
+   </tbody>
+  </table>
+  <br/>
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  -->
+  <table bordercolor="#000000" style="width: 100%;" border="0" cellspacing="0" cellpadding="8">
+   <thead style="background-color: #EEEEEE">
+    <tr>
+     <th>Tool</th>
+     <th align="right" style="padding-right: 10px; cursor: pointer;" onclick="switchTable(event)">Open</th>
+    </tr>
+   </thead>
+   <tbody style="display:none">
+   <tr>
+     <td><a href="https://9.111.121.131:9443/DB_view/Export_cat.html" target="_blank">X CAT DB</a></td>
+     <td><a href="https://9.111.121.131:9443/DB_view/Browser.jsp" target="_blank">X jsp broswer</a></td>
+    </tr>
+    <tr>
+     <td><a href="http://9.111.111.39:8080/toolkit/login" target="_blank">userProfile </a>admin/Passw9rd!</td>
+     <td><a href="http://bluepages.ibm.com/BpHttpApisv3/wsapi?byInternetAddr=jiedeng@cn.ibm.com" target="_blank">IIP Profile</a></td>
+    </tr>
+    <tr>
+     <td><a href="http://eswsvr.cn.ibm.com/confluence/#all-updates" target="_blank">Confluence</a></td>
+     <td><a href="http://tool.ckd.cc/worldclock.php" target="_blank">global time</a></td>
+    </tr>
+   </tbody>
+  </table>
+  <br/>
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  -->
+  
+  
+ </div>
+ 
+</div>
+</body>
+
+</html>
+
