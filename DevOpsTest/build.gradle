@@ -12,7 +12,16 @@ repositories {
 }
 
 
+war {
 
+baseName ='pipeline-gradle'
+version =1.0
+from {
+configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+
+       }
+  destinationDir = file('.')  
+ }
 
 dependencies {
 		providedCompile 'javax.servlet:servlet-api:2.5'
