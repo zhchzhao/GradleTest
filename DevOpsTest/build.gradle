@@ -13,13 +13,6 @@ repositories {
 
 
 war {
-
-baseName ='pipeline-gradle'
-version =1.0
-from {
-configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
-
-       }
   destinationDir = file('.')  
  }
 
