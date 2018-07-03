@@ -2,7 +2,6 @@
 <head>
 <title>test page title</title>
 </head>
-
 <body>
 	<form action="test.do" method="get">
 		<input type="text" id="userName" name="userName" value="" />

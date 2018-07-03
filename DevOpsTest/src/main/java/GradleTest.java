@@ -38,7 +38,7 @@ public class GradleTest extends HttpServlet {
 		response.setContentType("text/html;charset=UTF-8");
 		PrintWriter out = response.getWriter();
 		out.println("*****************test servlet by Gradle build******************");
-		out.println("**********  "+request.getParameter("userName")+"    "+request.getParameter("passWord")+"  ***********");
+		out.println("<p/>**********  "+request.getParameter("userName")+"    "+request.getParameter("passWord")+"  ***********");
 		out.flush();
 		out.close();
 	}
