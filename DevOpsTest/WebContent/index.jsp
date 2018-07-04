@@ -8,7 +8,7 @@
 		<p />
 		<input type="text" id="passWord" name="passWord" value="" />
 		<p />
-		<input type="submit" value="submit" />
+		<input type="submit" id="submitBtn" name="submitBtn" value="submit" />
 	</form>
 
 </body>

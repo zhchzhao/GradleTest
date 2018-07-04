@@ -1,7 +1,8 @@
+apply plugin: 'eclipse-wtp'
 apply plugin: 'java'
 apply plugin: 'war'
 
-
+sourceSets.main.java.srcDir 'src'   // 设置 Java 源码所在目录
 webAppDirName = 'WebContent'
 
 
